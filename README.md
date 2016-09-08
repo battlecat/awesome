@@ -27,6 +27,8 @@ sudo cp -f conf/supervisor/supervisord.conf /etc/supervisord.conf
 
 supervisord -c /etc/supervisord.conf
 
+可以用ps -efH|grep python查看运行的进程中有它
+
 
 
 
