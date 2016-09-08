@@ -1,4 +1,4 @@
-# quantzen
+# awesome
 a python web app based on awesome-python-webapp by michaelliao
 # How to install
 yum install nginx supervisor mysql-server
