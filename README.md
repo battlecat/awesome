@@ -13,6 +13,12 @@ sudo service mysqld start
 
 mysqladmin -u root password 'root'
 
+导入数据库SQL文件
+
+sudo mysql -u root -p < schema.sql
+
+
+
 sudo cp conf/nginx/awesome /etc/nginx/
 
 sudo cp conf/supervisor/
