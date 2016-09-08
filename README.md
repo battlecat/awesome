@@ -23,3 +23,9 @@ sudo cp conf/nginx/awesome /etc/nginx/
 
 sudo cp conf/supervisor/
 
+ sudo supervisorctl stop awesome
+ 
+ sudo supervisorctl start awesome
+ 
+ sudo /etc/init.d/nginx reload
+
