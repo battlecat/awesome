@@ -36,5 +36,7 @@ supervisord -c /etc/supervisord.conf
  
  sudo supervisorctl start awesome
  
- sudo /etc/init.d/nginx reload
+ 启动nginx
+ 
+ sudo service nginx reload
 
