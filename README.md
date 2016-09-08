@@ -7,6 +7,12 @@ sudo yum install nginx gunicorn  supervisor mysql-server python-gevent
 
 sudo pip install mysql-connector jinja2
 
+启动MYSQL并设置ROOT的密码,下例中密码为root
+
+sudo service mysqld start
+
+mysqladmin -u root password 'root'
+
 sudo cp conf/nginx/awesome /etc/nginx/
 
 sudo cp conf/supervisor/
