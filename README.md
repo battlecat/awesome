@@ -19,9 +19,11 @@ sudo mysql -u root -p < schema.sql
 
 复制配置文件到相应目录
 
-sudo cp conf/nginx/awesome /etc/nginx/
+sudo cp -f conf/nginx/nginx.conf /etc/nginx/nginx.conf
 
-sudo cp conf/supervisor/
+sudo cp -f conf/supervisor/supervisord.conf /etc/supervisord.conf
+
+
 
  sudo supervisorctl stop awesome
  
