@@ -17,6 +17,10 @@ mysqladmin -u root password 'root'
 
 sudo mysql -u root -p < schema.sql
 
+给WWW目录权限
+
+chown -R www-data:www-data www
+
 
 
 sudo cp conf/nginx/awesome /etc/nginx/
