@@ -23,6 +23,11 @@ sudo cp -f conf/nginx/nginx.conf /etc/nginx/nginx.conf
 
 sudo cp -f conf/supervisor/supervisord.conf /etc/supervisord.conf
 
+启动supervisor
+
+supervisord -c /etc/supervisord.conf
+
+
 
 
  sudo supervisorctl stop awesome
