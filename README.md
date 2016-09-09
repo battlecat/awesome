@@ -33,6 +33,12 @@ supervisorctl reload
 
 supervisorctl start awesome
 
+用status查看
+
+[ec2-user@ip-172-31-18-152 awesome]$ supervisorctl status
+
+awesome                          RUNNING   pid 12591, uptime 0:00:30
+
 可以用ps -efH|grep python查看运行的进程中有它
 
 启动nginx
