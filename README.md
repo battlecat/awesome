@@ -41,7 +41,7 @@ awesome                          RUNNING   pid 12591, uptime 0:00:30
 
 可以用ps -efH|grep python查看运行的进程中有它
 
-启动nginx
+启动nginx成功
  
- sudo service nginx reload
+ sudo /etc/init.d/nginx start
 
