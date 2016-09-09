@@ -19,24 +19,19 @@ sudo mysql -u root -p < schema.sql
 
 复制配置文件到相应目录
 
-sudo cp -f conf/nginx/nginx.conf /etc/nginx/nginx.conf
+sudo cp -f conf/nginx.conf /etc/nginx/nginx.conf
 
-sudo cp -f conf/supervisor/supervisord.conf /etc/supervisord.conf
+sudo cp -f conf/supervisord.conf /etc/supervisord.conf
 
-启动supervisor
+重启supervisor
 
-supervisord -c /etc/supervisord.conf
+supervisorctl reload
+
+supervisorctl start awesome
 
 可以用ps -efH|grep python查看运行的进程中有它
 
-
-
-
- sudo supervisorctl stop awesome
- 
- sudo supervisorctl start awesome
- 
- 启动nginx
+启动nginx
  
  sudo service nginx reload
 
