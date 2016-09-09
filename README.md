@@ -45,3 +45,6 @@ awesome                          RUNNING   pid 12591, uptime 0:00:30
  
  sudo /etc/init.d/nginx start
 
+无法显示前端，如果
+
+sudo python wsgiapp.py
