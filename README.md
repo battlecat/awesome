@@ -1,11 +1,15 @@
 # awesome
 a python web app based on awesome-python-webapp by michaelliao
 # How to install
-sudo yum install nginx mysql-server python-gevent
+sudo yum install nginx mysql-server gcc
 
-  (后面这个python-gevent本来应该放到pip中安装，但安装经常出错，所以用YUM安装反倒成功）
+  (后面原来是准备安装这个python-gevent，但用YUM安装显示成功但是无法调用命令。
+  
+  后来放到pip中安装，但安装经常出错，看问题后是缺少gcc导致的。
+  
+  用yum安装gcc，再用pip安装gevent成功。）
 
-sudo pip install mysql-connector jinja2 gunicorn  supervisor
+sudo pip install mysql-connector jinja2 gunicorn  supervisor gevent
 
 启动MYSQL并设置ROOT的密码,下例中密码为root
 
