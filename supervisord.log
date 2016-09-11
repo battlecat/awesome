@@ -5,3 +5,10 @@
 2016-09-08 09:39:12,335 INFO spawnerr: can't find command '/usr/bin/gunicorn'
 2016-09-08 09:39:15,339 INFO spawnerr: can't find command '/usr/bin/gunicorn'
 2016-09-08 09:39:15,339 INFO gave up: awesome entered FATAL state, too many start retries too quickly
+2016-09-08 16:08:38,874 INFO daemonizing the supervisord process
+2016-09-08 16:08:38,874 INFO supervisord started with pid 25581
+2016-09-08 16:08:39,875 INFO spawnerr: can't find command '/usr/bin/gunicorn'
+2016-09-08 16:08:40,877 INFO spawnerr: can't find command '/usr/bin/gunicorn'
+2016-09-08 16:08:42,880 INFO spawnerr: can't find command '/usr/bin/gunicorn'
+2016-09-08 16:08:45,884 INFO spawnerr: can't find command '/usr/bin/gunicorn'
+2016-09-08 16:08:45,884 INFO gave up: awesome entered FATAL state, too many start retries too quickly
